@@ -1,0 +1,136 @@
+.app-container {
+  min-height: 100vh;
+  padding: 55px;
+  display: flex;
+  flex-direction: column;
+}
+.heading-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 30vh;
+  border-radius: 15px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  justify-content: center;
+}
+.heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #475569;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 14px;
+  }
+}
+.greeting {
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #475569;
+}
+@media screen and (max-width: 768px) {
+  .greeting {
+    font-size: 8px;
+  }
+}
+.span {
+  color: #0b69ff;
+}
+
+.transaction-history-container {
+  display: flex;
+  flex-direction: row;
+}
+.container {
+  border: 1px solid #cbd5e1;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 30px;
+  border-radius: 7px;
+  margin-top: 30px;
+}
+.sub-heading {
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #334155;
+}
+@media screen and (max-width: 768px) {
+  .sub-heading {
+    font-size: 8px;
+  }
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-size: 9px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #7e858e;
+}
+@media screen and (max-width: 768px) {
+  .label {
+    font-size: 6px;
+  }
+}
+.input {
+  border: 1px solid #cbd5e1;
+  font-size: 9px;
+  color: #7e858e;
+  padding: 4px;
+  margin-bottom: 8px;
+}
+.option {
+  font-size: 10px;
+}
+@media screen and (max-width: 768px) {
+  .option {
+    font-size: 6px;
+  }
+}
+.button {
+  background-color: #0b69ff;
+  font-size: 10px;
+  border-radius: 4px;
+  border: none;
+  padding: 4px;
+  width: 40px;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .button {
+    width: 30px;
+    font-size: 7px;
+  }
+}
+.history-container {
+  list-style-type: none;
+  padding: 3px;
+}
+.table-header {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #cbd5e1;
+}
+.content {
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #334155;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+@media screen and (max-width: 768px) {
+  .content {
+    font-size: 7px;
+  }
+}

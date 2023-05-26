@@ -1,0 +1,35 @@
+.transactiom-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+}
+.item {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #334155;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+@media screen and (max-width: 768px) {
+  .item {
+    font-size: 7px;
+  }
+}
+.delete-button {
+  border: none;
+  background-color: transparent;
+  margin-left: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.delete-image {
+  height: 18px;
+  width: 18px;
+}
+@media screen and (max-width: 768px) {
+  .delete-image {
+    height: 13px;
+    width: 13px;
+  }
+}
